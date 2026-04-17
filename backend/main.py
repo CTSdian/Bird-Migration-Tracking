@@ -2,8 +2,14 @@ from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
 from typing import List
 
-from .data_loader import get_prediction_route, get_route_points, get_species_list, get_temperature_for_location
-from .schemas import MigrationPoint, PredictionsResponse, SpeciesSummary
+from .data_loader import (
+    get_clustered_route_points,
+    get_prediction_route,
+    get_route_points,
+    get_species_list,
+    get_temperature_for_location,
+)
+from .schemas import ClusteredMigrationPoint, MigrationPoint, PredictionsResponse, SpeciesSummary
 
 app = FastAPI(
     title="Bird Migration Predictor",
@@ -30,6 +36,14 @@ def read_route_points(species: str = Query(..., description="Scientific name of 
     points = get_route_points(species)
     if not points:
         raise HTTPException(status_code=404, detail=f"Species '{species}' not found.")
+    return points
+
+
+@app.get("/api/clustering/routes", response_model=List[ClusteredMigrationPoint])
+def read_clustered_route_points() -> List[ClusteredMigrationPoint]:
+    points = get_clustered_route_points()
+    if not points:
+        raise HTTPException(status_code=404, detail="No clustered route points available.")
     return points
 
 

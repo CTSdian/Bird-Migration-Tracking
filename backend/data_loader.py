@@ -2,7 +2,10 @@ from functools import lru_cache
 from pathlib import Path
 from typing import Dict, List
 
+import numpy as np
 import pandas as pd
+from sklearn.cluster import KMeans
+from sklearn.preprocessing import StandardScaler
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data.csv"
@@ -324,3 +327,99 @@ def get_prediction_route(species_name: str) -> List[Dict]:
         {**point, "predicted": True, "sequence_index": idx}
         for idx, point in enumerate(route)
     ]
+
+
+def _haversine_km(lat1, lon1, lat2, lon2):
+    radius_km = 6371.0
+    lat1, lon1, lat2, lon2 = map(np.radians, [lat1, lon1, lat2, lon2])
+    dlat = lat2 - lat1
+    dlon = lon2 - lon1
+    a = np.sin(dlat / 2) ** 2 + np.cos(lat1) * np.cos(lat2) * np.sin(dlon / 2) ** 2
+    return 2 * radius_km * np.arcsin(np.sqrt(a))
+
+
+def _bearing_deg(lat1, lon1, lat2, lon2):
+    lat1, lon1, lat2, lon2 = map(np.radians, [lat1, lon1, lat2, lon2])
+    dlon = lon2 - lon1
+    y = np.sin(dlon) * np.cos(lat2)
+    x = np.cos(lat1) * np.sin(lat2) - np.sin(lat1) * np.cos(lat2) * np.cos(dlon)
+    return (np.degrees(np.arctan2(y, x)) + 360) % 360
+
+
+def _sanitize_record(record: Dict) -> Dict:
+    clean = {}
+    for key, value in record.items():
+        clean[key] = None if pd.isna(value) else value
+    return clean
+
+
+@lru_cache()
+def get_clustered_route_points() -> List[Dict]:
+    df = load_data()
+    route_rows = []
+
+    for (species, route_code), group in df.groupby(["species", "route_code"], dropna=True):
+        group = group.sort_values("id")
+        if len(group) < 3:
+            continue
+
+        lat = group["gps_yy"].to_numpy(float)
+        lon = group["gps_xx"].to_numpy(float)
+        step = _haversine_km(lat[:-1], lon[:-1], lat[1:], lon[1:])
+        total_distance = float(np.nansum(step))
+        displacement = float(_haversine_km(lat[0], lon[0], lat[-1], lon[-1]))
+        straightness = float(displacement / (total_distance + 1e-9))
+
+        bearings = _bearing_deg(lat[:-1], lon[:-1], lat[1:], lon[1:])
+        turns = np.abs((np.diff(bearings) + 180) % 360 - 180)
+
+        route_rows.append(
+            {
+                "species": species,
+                "route_code": int(route_code),
+                "n_points": len(group),
+                "log_total_dist": np.log1p(total_distance),
+                "straightness": straightness,
+                "mean_step_km": float(np.nanmean(step)),
+                "turn_mean_deg": float(np.nanmean(turns)) if len(turns) > 0 else 0.0,
+                "turn_std_deg": float(np.nanstd(turns)) if len(turns) > 0 else 0.0,
+            }
+        )
+
+    route_df = pd.DataFrame(route_rows)
+    if route_df.empty:
+        return []
+
+    feature_columns = [
+        "n_points",
+        "log_total_dist",
+        "straightness",
+        "mean_step_km",
+        "turn_mean_deg",
+        "turn_std_deg",
+    ]
+    x_scaled = StandardScaler().fit_transform(route_df[feature_columns])
+    labels = KMeans(n_clusters=3, n_init=30, random_state=42).fit_predict(x_scaled)
+
+    label_map: Dict[tuple[str, int], int] = {}
+    for idx, row in route_df.iterrows():
+        label_map[(str(row["species"]), int(row["route_code"]))] = int(labels[idx]) + 1
+
+    clustered_records: List[Dict] = []
+    for (species, route_code), group in df.groupby(["species", "route_code"], dropna=True):
+        key = (str(species), int(route_code))
+        cluster_id = label_map.get(key)
+        if cluster_id is None:
+            continue
+
+        points = group.sort_values("id").to_dict(orient="records")
+        route_key = f"{species}::{int(route_code)}"
+        for idx, record in enumerate(points):
+            record = _sanitize_record(record)
+            record["route_key"] = route_key
+            record["cluster_id"] = cluster_id
+            record["sequence_index"] = idx
+            clustered_records.append(record)
+
+    clustered_records.sort(key=lambda x: (x["cluster_id"], x["route_key"], x["sequence_index"]))
+    return clustered_records

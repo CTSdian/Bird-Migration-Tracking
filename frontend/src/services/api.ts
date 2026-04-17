@@ -1,4 +1,4 @@
-import type { MigrationPoint, PredictionsResponse, SpeciesSummary } from '../types';
+import type { ClusteredRoutePoint, MigrationPoint, PredictionsResponse, SpeciesSummary } from '../types';
 
 const API_BASE = '/api';
 
@@ -24,6 +24,14 @@ export async function fetchTemperature(latitude: number, longitude: number, year
   );
   if (!response.ok) {
     throw new Error('Failed to load temperature data');
+  }
+  return response.json();
+}
+
+export async function fetchClusteredRoutePoints(): Promise<ClusteredRoutePoint[]> {
+  const response = await fetch(`${API_BASE}/clustering/routes`);
+  if (!response.ok) {
+    throw new Error('Failed to load clustering routes');
   }
   return response.json();
 }

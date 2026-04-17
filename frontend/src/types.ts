@@ -45,6 +45,11 @@ export interface RouteGroup {
   points: MigrationPoint[];
 }
 
+export interface ClusteredRoutePoint extends MigrationPoint {
+  route_key: string;
+  cluster_id: number;
+}
+
 export interface GroupSummary {
   key: string;
   label: string;

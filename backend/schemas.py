@@ -36,6 +36,11 @@ class MigrationPoint(BaseModel):
     estimated_month: Optional[int] = None
 
 
+class ClusteredMigrationPoint(MigrationPoint):
+    route_key: str
+    cluster_id: int
+
+
 class SpeciesSummary(BaseModel):
     species: str
     common_name: Optional[str]
