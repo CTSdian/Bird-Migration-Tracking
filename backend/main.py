@@ -1,15 +1,20 @@
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
-from typing import List
+from typing import List, Optional
 
 from .data_loader import (
     get_clustered_route_points,
     get_prediction_route,
+    get_route_aggregated_counts,
     get_route_points,
+    get_species_discrimination_report,
     get_species_list,
     get_temperature_for_location,
+    get_tracking_points,
+    get_tracking_report,
+    get_tracking_species_list,
 )
-from .schemas import ClusteredMigrationPoint, MigrationPoint, PredictionsResponse, SpeciesSummary
+from .schemas import ClusteredMigrationPoint, MigrationPoint, PredictionExperimentResponse, PredictionsResponse, RouteAggregationResponse, SpeciesSummary, TrackingReportResponse, TrackingResponse, TrackingSpeciesSummary
 
 app = FastAPI(
     title="Bird Migration Predictor",
@@ -31,12 +36,38 @@ def list_species() -> List[SpeciesSummary]:
     return get_species_list()
 
 
+@app.get("/api/tracking/species", response_model=List[TrackingSpeciesSummary])
+def list_tracking_species() -> List[TrackingSpeciesSummary]:
+    return [TrackingSpeciesSummary(**item) for item in get_tracking_species_list()]
+
+
+@app.get("/api/tracking/report", response_model=TrackingReportResponse)
+def read_tracking_report() -> TrackingReportResponse:
+    return TrackingReportResponse(**get_tracking_report())
+
+
+@app.get("/api/tracking/points", response_model=TrackingResponse)
+def read_tracking_points(species: str = Query(..., description="Tracking species folder name")) -> TrackingResponse:
+    data = get_tracking_points(species)
+    if not data["points"]:
+        raise HTTPException(status_code=404, detail=f"Tracking species '{species}' not found.")
+    return TrackingResponse(**data)
+
+
 @app.get("/api/routes", response_model=List[MigrationPoint])
-def read_route_points(species: str = Query(..., description="Scientific name of the bird species")) -> List[MigrationPoint]:
+def read_route_points(species: Optional[str] = Query(None, description="Scientific name of the bird species")) -> List[MigrationPoint]:
     points = get_route_points(species)
-    if not points:
+    if species and not points:
         raise HTTPException(status_code=404, detail=f"Species '{species}' not found.")
     return points
+
+
+@app.get("/api/routes/aggregated", response_model=RouteAggregationResponse)
+def read_route_aggregated_counts(species: Optional[str] = Query(None, description="Scientific name of the bird species")) -> RouteAggregationResponse:
+    data = get_route_aggregated_counts(species)
+    if species and not data["counts"]:
+        raise HTTPException(status_code=404, detail=f"Species '{species}' not found.")
+    return RouteAggregationResponse(**data)
 
 
 @app.get("/api/clustering/routes", response_model=List[ClusteredMigrationPoint])
@@ -66,3 +97,8 @@ def predict_route(species: str = Query(..., description="Scientific name of the 
     if not points:
         raise HTTPException(status_code=404, detail=f"Species '{species}' not found.")
     return PredictionsResponse(species=species, points=points)
+
+
+@app.get("/api/predictions/experiments", response_model=PredictionExperimentResponse)
+def read_prediction_experiments() -> PredictionExperimentResponse:
+    return PredictionExperimentResponse(**get_species_discrimination_report())

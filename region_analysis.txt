@@ -1,0 +1,662 @@
+PROVINCE/REGION ANALYSIS FOR BIRD MIGRATION DATA
+================================================================================
+Total countries in dataset: 172
+
+
+Afghanistan (31 regions):
+  Badakhshan, Badghis, Baghlan, Balkh, Bamyan, Daykundi, Farah, Faryab, Ghazni, Ghor, Hilmand, Hirat, Jawzjan, Kabul, Kandahar
+  ... and 16 more
+
+
+Albania (12 regions):
+  Berat, Dib?r, Durr?s, Elbasan, Fier, Gjirokast?r, Kor??, Kuk?s, Lezh?, Shkod?r, Tiran?, Vlor?
+
+Algeria (48 regions):
+  A?n Defla, A?n T¨¦mouchent, Adrar, Alger, Annaba, Batna, Biskra, Blida, Bordj Bou Arr¨¦ridj, Bouira, Boumerd¨¨s, B¨¦char, B¨¦ja?a, Chlef, Constantine
+  ... and 33 more
+
+
+Angola (18 regions):
+  Bengo, Benguela, Bi¨¦, Cabinda, Cuando Cubango, Cuanza Norte, Cuanza Sul, Cunene, Huambo, Hu¨ªla, Luanda, Lunda Norte, Lunda Sul, Malanje, Moxico
+  ... and 3 more
+
+
+Antigua and Barbuda (8 regions):
+  Barbuda, Redonda, Saint George, Saint John, Saint Mary, Saint Paul, Saint Peter, Saint Philip
+
+Argentina (20 regions):
+  Buenos Aires, Catamarca, Chaco, Corrientes, C¨®rdoba, Entre R¨ªos, Formosa, Jujuy, La Pampa, La Rioja, Misiones, Paktika, R¨ªo Negro, Salta, San Luis
+  ... and 5 more
+
+
+Armenia (11 regions):
+  Aragatsotn, Ararat, Armavir, Erevan, Gegharkunik, Kotayk, Lori, Shirak, Syunik, Tavush, Vayots Dzor
+
+Australia (6 regions):
+  New South Wales, Northern Territory, Queensland, Tasmania, Victoria, Western Australia
+
+Austria (9 regions):
+  Burgenland, K?rnten, Nieder?sterreich, Ober?sterreich, Salzburg, Steiermark, Tirol, Vorarlberg, Wien
+
+Azerbaijan (10 regions):
+  Absheron, Aran, Daglig-Shirvan, Ganja-Qazakh, Kalbajar-Lachin, Lankaran, Nakhchivan, Quba-Khachmaz, Shaki-Zaqatala, Yukhari-Karabakh
+
+Bahamas (32 regions):
+  Acklins, Berry Islands, Biminis, Black Point, Cat Island, Central Abaco, Central Andros, Central Eleuthera, City of Freeport, Crooked Island, East Grand Bahama, Exuma, Grand Cay, Harbour Island, Hope Town
+  ... and 17 more
+
+
+Bangladesh (7 regions):
+  Barisal, Chittagong, Dhaka, Khulna, Rajshahi, Rangpur, Sylhet
+
+Barbados (11 regions):
+  Christ Church, Saint Andrew, Saint George, Saint James, Saint John, Saint Joseph, Saint Lucy, Saint Michael, Saint Peter, Saint Philip, Saint Thomas
+
+Belarus (6 regions):
+  Brest, Homyel', Hrodna, Mahilyow, Minsk, Vitsyebsk
+
+Belgium (3 regions):
+  Bruxelles, Vlaanderen, Wallonie
+
+Belize (6 regions):
+  Belize, Cayo, Corozal, Orange Walk, Stann Creek, Toledo
+
+Benin (11 regions):
+  Alibori, Atakora, Atlantique, Borgou, Collines, Donga, Kouffo, Mono, Ou¨¦m¨¦, Plateau, Zou
+
+Bhutan (20 regions):
+  Bumthang, Chhukha, Dagana, Gasa, Haa, Lhuentse, Monggar, Paro, Pemagatshel, Punakha, Samdrupjongkhar, Samtse, Sarpang, Thimphu, Trashigang
+  ... and 5 more
+
+
+Bolivia (9 regions):
+  Chuquisaca, Cochabamba, El Beni, La Paz, Oruro, Pando, Potos¨ª, Santa Cruz, Tarija
+
+Bosnia and Herzegovina (3 regions):
+  Br?ko, Federacija Bosna i Hercegovina, Repuplika Srpska
+
+Botswana (8 regions):
+  Central, Chobe, Ghanzi, Kgalagadi, Kweneng, North-East, North-West, Southern
+
+Brazil (23 regions):
+  Acre, Alagoas, Amap¨¢, Amazonas, Bahia, Cear¨¢, Goi¨¢s, Maranh?o, Mato Grosso, Mato Grosso do Sul, Minas Gerais, Paran¨¢, Para¨ªba, Par¨¢, Pernambuco
+  ... and 8 more
+
+
+Bulgaria (28 regions):
+  Blagoevgrad, Burgas, Dobrich, Gabrovo, Grad Sofiya, Haskovo, Kardzhali, Kyustendil, Lovech, Montana, Pazardzhik, Pernik, Pleven, Plovdiv, Razgrad
+  ... and 13 more
+
+
+Burkina Faso (13 regions):
+  Boucle du Mouhoun, Cascades, Centre, Centre-Est, Centre-Nord, Centre-Ouest, Centre-Sud, Est, Haut-Bassins, Nord, Plateau-Central, Sahel, Sud-Ouest
+
+Burundi (17 regions):
+  Bubanza, Bujumbura Mairie, Bujumbura Rural, Bururi, Cankuzo, Cibitoke, Gitega, Karuzi, Kayanza, Kirundo, Makamba, Muramvya, Muyinga, Mwaro, Ngozi
+  ... and 2 more
+
+
+C?te d¡¯Ivoire (13 regions):
+  Bas-Sassandra, Como¨¦, Dengu¨¦l¨¦, G?h-Djiboua, Lacs, Lagunes, Montagnes, Sassandra-Marahou¨¦, Savanes, Vall¨¦e du Bandama, Woroba, Yamoussoukro, Zanzan
+
+Cambodia (25 regions):
+  B?nt¨¦ay M¨¦anchey, Batd?mb?ng, K?mp?t, K?mp¨®ng Cham, K?mp¨®ng Chhnang, K?mp¨®ng Sp?, K?mp¨®ng Thum, K?ndal, Ka?h Kong, Kep, Kr?ch¨¦h, Krong Pailin, Krong Preah Sihanouk, M?nd¨®l Kiri, Otdar Mean Chey
+  ... and 10 more
+
+
+Cameroon (8 regions):
+  Est, Extr¨ºme-Nord, Littoral, Nord, Nord-Ouest, Ouest, Sud, Sud-Ouest
+
+Canada (13 regions):
+  Alberta, British Columbia, Manitoba, New Brunswick, Newfoundland and Labrador, Northwest Territories, Nova Scotia, Nunavut, Ontario, Prince Edward Island, Qu¨¦bec, Saskatchewan, Yukon
+
+Central African Republic (16 regions):
+  Bamingui-Bangoran, Basse-Kotto, Haut-Mbomou, Haute-Kotto, K¨¦mo, Lobaye, Mamb¨¦r¨¦-Kad¨¦?, Mbomou, Nana-Gr¨¦bizi, Nana-Mamb¨¦r¨¦, Ombella-M'Poko, Ouaka, Ouham, Ouham-Pend¨¦, Sangha-Mba¨¦r¨¦
+  ... and 1 more
+
+
+Chad (23 regions):
+  Barh el Ghazel, Batha, Borkou, Chari-Baguirmi, Ennedi Est, Ennedi Ouest, Gu¨¦ra, Hadjer-Lamis, Kanem, Lac, Logone Occidental, Logone Oriental, Mandoul, Mayo-Kebbi Est, Mayo-Kebbi Ouest
+  ... and 8 more
+
+
+Chile (4 regions):
+  Antofagasta, Atacama, Magallanes y Ant¨¢rtica Chilena, Tarapac¨¢
+
+China (32 regions):
+  Anhui, Beijing, Chongqing, Fujian, Gansu, Guangdong, Guangxi, Guizhou, Hainan, Hebei, Heilongjiang, Henan, Hubei, Hunan, Jiangsu
+  ... and 17 more
+
+
+Colombia (23 regions):
+  Casanare, Cauca, Cesar, Choc¨®, Cundinamarca, Guain¨ªa, Guaviare, Huila, La Guajira, Magdalena, Meta, Nari?o, Norte de Santander, Putumayo, Quind¨ªo
+  ... and 8 more
+
+
+Costa Rica (7 regions):
+  Alajuela, Cartago, Guanacaste, Heredia, Lim¨®n, Puntarenas, San Jos¨¦
+
+Croatia (21 regions):
+  ?ibensko-Kninska, Bjelovarska-Bilogorska, Brodsko-Posavska, Dubrovacko-Neretvanska, Grad Zagreb, Istarska, Karlovacka, Koprivni?ko-Kri?eva?ka, Krapinsko-Zagorska, Licko-Senjska, Medimurska, Osjecko-Baranjska, Po?e?ko-Slavonska, Primorsko-Goranska, Sisacko-Moslavacka
+  ... and 6 more
+
+
+Cuba (16 regions):
+  Camag¨¹ey, Ciego de ?vila, Cienfuegos, Ciudad de la Habana, Granma, Guant¨¢namo, Holgu¨ªn, Isla de la Juventud, La Habana, Las Tunas, Matanzas, Mayabeque, Pinar del R¨ªo, Sancti Sp¨ªritus, Santiago de Cuba
+  ... and 1 more
+
+
+Cyprus (5 regions):
+  Famagusta, Larnaca, Limassol, Nicosia, Paphos
+
+Czech Republic (14 regions):
+  ?steck?, Jiho?esk?, Jihomoravsk?, Karlovarsk?, Kraj Vyso?ina, Kr¨¢lov¨¦hradeck?, Libereck?, Moravskoslezsk?, Olomouck?, Pardubick?, Plze¨¾sk?, Prague, St?edo?esk?, Zl¨ªnsk?
+
+Democratic Republic of the Congo (9 regions):
+  ?quateur, Bandundu, Bas-Congo, Kasa?-Occidental, Kasa?-Oriental, Katanga, Kinshasa City, Kivu, Orientale
+
+Denmark (5 regions):
+  Hovedstaden, Midtjylland, Nordjylland, Sj?lland, Syddanmark
+
+Djibouti (5 regions):
+  Ali Sabieh, Dikhil, Djibouti, Obock, Tadjourah
+
+Dominica (10 regions):
+  Saint Andrew, Saint David, Saint George, Saint John, Saint Joseph, Saint Luke, Saint Mark, Saint Patrick, Saint Paul, Saint Peter
+
+Dominican Republic (32 regions):
+  Azua, Bahoruco, Barahona, Dajab¨®n, Distrito Nacional, Duarte, El Seybo, Espaillat, Hato Mayor, Independencia, La Altagracia, La Estrelleta, La Romana, La Vega, Mar¨ªa Trinidad S¨¢nchez
+  ... and 17 more
+
+
+Ecuador (23 regions):
+  Azuay, Bolivar, Ca?ar, Carchi, Chimborazo, Cotopaxi, El Oro, Esmeraldas, Guayas, Imbabura, Loja, Los Rios, Manabi, Morona Santiago, Napo
+  ... and 8 more
+
+
+Egypt (26 regions):
+  Ad Daqahliyah, Al Bahr al Ahmar, Al Buhayrah, Al Fayyum, Al Gharbiyah, Al Isma`iliyah, Al Jizah, Al Minufiyah, Al Minya, Al Qahirah, Al Qalyubiyah, Al Uqsur, Al Wadi al Jadid, As Suways, Ash Sharqiyah
+  ... and 11 more
+
+
+El Salvador (14 regions):
+  Ahuachap¨¢n, Caba?as, Chalatenango, Cuscatl¨¢n, La Libertad, La Paz, La Uni¨®n, Moraz¨¢n, San Miguel, San Salvador, San Vicente, Santa Ana, Sonsonate, Usulut¨¢n
+
+Equatorial Guinea (4 regions):
+  Centro Sur, Ki¨¦-Ntem, Litoral, Wele-Nzas
+
+Eritrea (6 regions):
+  Anseba, Debub, Debubawi Keyih Bahri, Gash Barka, Maekel, Semenawi Keyih Bahri
+
+Estonia (16 regions):
+  Harju, Hiiu, Ida-Viru, J?geva, J?rva, L??ne, L??ne-Viru, P?lva, P?rnu, Peipsi, Rapla, Saare, Tartu, V?ru, Valga
+  ... and 1 more
+
+
+Ethiopia (10 regions):
+  Afar, Amhara, Benshangul-Gumaz, Dire Dawa, Gambela Peoples, Harari People, Oromia, Somali, Southern Nations, Nationalities and Peoples, Tigray
+
+Finland (5 regions):
+  Eastern Finland, Lapland, Oulu, Southern Finland, Western Finland
+
+France (31 regions):
+  ?le-de-France, Alsace, Aquitaine, Auvergne, Basse-Normandie, Basse-Terre, Bourgogne, Bretagne, Cayenne, Centre, Champagne-Ardenne, Corse, Fort-de-France, Franche-Comt¨¦, Haute-Normandie
+  ... and 16 more
+
+
+Gabon (9 regions):
+  Estuaire, Haut-Ogoou¨¦, Moyen-Ogoou¨¦, Ngouni¨¦, Nyanga, Ogoou¨¦-Ivindo, Ogoou¨¦-Lolo, Ogoou¨¦-Maritime, Wouleu-Ntem
+
+Gambia (5 regions):
+  Lower River, Maccarthy Island, North Bank, Upper River, Western
+
+Georgia (12 regions):
+  Abkhazia, Ajaria, Guria, Imereti, Kakheti, Kvemo Kartli, Mtskheta-Mtianeti, Racha-Lechkhumi-Kvemo Svaneti, Samegrelo-Zemo Svaneti, Samtskhe-Javakheti, Shida Kartli, Tbilisi
+
+Germany (16 regions):
+  Baden-W¨¹rttemberg, Bayern, Berlin, Brandenburg, Bremen, Hamburg, Hessen, Mecklenburg-Vorpommern, Niedersachsen, Nordrhein-Westfalen, Rheinland-Pfalz, Saarland, Sachsen, Sachsen-Anhalt, Schleswig-Holstein
+  ... and 1 more
+
+
+Ghana (10 regions):
+  Ashanti, Brong Ahafo, Central, Eastern, Greater Accra, Northern, Upper East, Upper West, Volta, Western
+
+Greece (8 regions):
+  Aegean, Athos, Attica, Crete, Epirus and Western Macedonia, Macedonia and Thrace, Peloponnese, Western Greece and the Ionian Islands, Thessaly and Central Greece
+
+Greenland (5 regions):
+  Kujalleq, Northeast Greenland National Park, Qaasuitsup, Qeqqata, Sermersooq
+
+Grenada (7 regions):
+  Carriacou, Saint Andrew, Saint David, Saint George, Saint John, Saint Mark, Saint Patrick
+
+Guatemala (22 regions):
+  Alta Verapaz, Baja Verapaz, Chimaltenango, Chiquimula, El Progreso, Escuintla, Guatemala, Huehuetenango, Izabal, Jalapa, Jutiapa, Pet¨¦n, Quezaltenango, Quich¨¦, Retalhuleu
+  ... and 7 more
+
+
+Guinea (8 regions):
+  Bok¨¦, Conakry, Faranah, Kankan, Kindia, Lab¨¦, Mamou, Nz¨¦r¨¦kor¨¦
+
+Guinea-Bissau (9 regions):
+  Bafat¨¢, Biombo, Bissau, Bolama, Cacheu, Gab¨², Oio, Quinara, Tombali
+
+Guyana (10 regions):
+  Barima-Waini, Cuyuni-Mazaruni, Demerara-Mahaica, East Berbice-Corentyne, Essequibo Islands-West Demerara, Mahaica-Berbice, Pomeroon-Supenaam, Potaro-Siparuni, Upper Demerara-Berbice, Upper Takutu-Upper Essequibo
+
+Haiti (10 regions):
+  Centre, Grand'Anse, L'Artibonite, Nippes, Nord, Nord-Est, Nord-Ouest, Ouest, Sud, Sud-Est
+
+Honduras (18 regions):
+  Atl¨¢ntida, Choluteca, Col¨®n, Comayagua, Cop¨¢n, Cort¨¦s, El Para¨ªso, Francisco Moraz¨¢n, Gracias a Dios, Intibuc¨¢, Islas de la Bah¨ªa, La Paz, Lempira, Ocotepeque, Olancho
+  ... and 3 more
+
+
+Hungary (20 regions):
+  Baranya, Borsod-Aba¨²j-Zempl¨¦n, Budapest, B¨¢cs-Kiskun, B¨¦k¨¦s, Csongr¨¢d, Fej¨¦r, Gyor-Moson-Sopron, Hajd¨²-Bihar, Heves, J¨¢sz-Nagykun-Szolnok, Kom¨¢rom-Esztergom, N¨®gr¨¢d, Pest, Somogy
+  ... and 5 more
+
+
+Iceland (8 regions):
+  Austurland, H?fu?borgarsv??i, H¨¢lshreppur, Nor?urland vestra, Su?urland, Su?urnes, Vestfir?ir, Vesturland
+
+India (32 regions):
+  Andaman and Nicobar, Andhra Pradesh, Arunachal Pradesh, Assam, Bihar, Chhattisgarh, Dadra and Nagar Haveli, Daman and Diu, Goa, Gujarat, Haryana, Himachal Pradesh, Jammu and Kashmir, Jharkhand, Karnataka
+  ... and 17 more
+
+
+Indonesia (32 regions):
+  Bali, Bangka-Belitung, Banten, Bengkulu, Gorontalo, Irian Jaya Barat, Jambi, Jawa Barat, Jawa Tengah, Jawa Timur, Kalimantan Barat, Kalimantan Selatan, Kalimantan Tengah, Kalimantan Timur, Kalimantan Utara
+  ... and 17 more
+
+
+Iran (31 regions):
+  Alborz, Ardebil, Bushehr, Chahar Mahall and Bakhtiari, East Azarbaijan, Esfahan, Fars, Gilan, Golestan, Hamadan, Hormozgan, Ilam, Kerman, Kermanshah, Khuzestan
+  ... and 16 more
+
+
+Iraq (18 regions):
+  Al-Anbar, Al-Basrah, Al-Muthannia, Al-Qadisiyah, An-Najaf, Arbil, As-Sulaymaniyah, At-Ta'mim, Babil, Baghdad, Dhi-Qar, Dihok, Diyala, Karbala', Maysan
+  ... and 3 more
+
+
+Ireland (26 regions):
+  Carlow, Cavan, Clare, Cork, Donegal, Dublin, Galway, Kerry, Kildare, Kilkenny, Laoighis, Leitrim, Limerick, Longford, Louth
+  ... and 11 more
+
+
+Israel (7 regions):
+  Golan, HaDarom, HaMerkaz, HaZafon, Haifa, Jerusalem, Tel Aviv
+
+Italy (20 regions):
+  Abruzzo, Apulia, Basilicata, Calabria, Campania, Emilia-Romagna, Friuli-Venezia Giulia, Lazio, Liguria, Lombardia, Marche, Molise, Piemonte, Sardegna, Sicily
+  ... and 5 more
+
+
+Jamaica (14 regions):
+  Clarendon, Hanover, Kingston, Manchester, Portland, Saint Andrew, Saint Ann, Saint Catherine, Saint Elizabeth, Saint James, Saint Mary, Saint Thomas, Trelawny, Westmoreland
+
+Japan (46 regions):
+  Aichi, Akita, Aomori, Chiba, Ehime, Fukui, Fukuoka, Fukushima, Gifu, Gunma, Hiroshima, Hokkaido, Hy¨­go, Ibaraki, Ishikawa
+  ... and 31 more
+
+
+Jordan (12 regions):
+  Ajlun, Amman, Aqaba, Balqa, Irbid, Jarash, Karak, Ma`an, Madaba, Mafraq, Tafilah, Zarqa
+
+Kazakhstan (14 regions):
+  Almaty, Aqmola, Aqt?be, Atyrau, East Kazakhstan, Mangghystau, North Kazakhstan, Pavlodar, Qaraghandy, Qostanay, Qyzylorda, South Kazakhstan, West Kazakhstan, Zhambyl
+
+Kenya (45 regions):
+  Baringo, Bomet, Bungoma, Busia, Elgeyo-Marakwet, Embu, Garissa, Homa Bay, Isiolo, Kajiado, Kakamega, Kericho, Kiambu, Kilifi, Kirinyaga
+  ... and 30 more
+
+
+Kuwait (6 regions):
+  Al Ahmadi, Al Farwaniyah, Al Jahrah, Al Kuwayt, Hawalli, Mubarak Al-Kabeer
+
+Kyrgyzstan (7 regions):
+  Batken, Ch¨¹y, Jalal-Abad, Naryn, Osh, Talas, Ysyk-K?l
+
+Laos (18 regions):
+  Attapu, Bokeo, Bolikhamxai, Champasak, Houaphan, Khammouan, Louang Namtha, Louangphrabang, Oud?mxai, Ph?ngsali, Saravan, Savannakh¨¦t, Vientiane, Vientiane [prefecture], Xaignabouri
+  ... and 3 more
+
+
+Latvia (5 regions):
+  Kurzeme, Latgale, Riga, Vidzeme, Zemgale
+
+Lebanon (8 regions):
+  Akkar, Baalbak - Hermel, Beirut, Bekaa, Mount Lebanon, Nabatiyeh, North, South
+
+Lesotho (8 regions):
+  Berea, Butha-Buthe, Leribe, Mafeteng, Maseru, Mohale's Hoek, Mokhotlong, Thaba-Tseka
+
+Liberia (12 regions):
+  Bomi, Bong, Gbapolu, Grand Cape Mount, GrandBassa, GrandGedeh, GrandKru, Lofa, Maryland, Nimba, River Gee, Sinoe
+
+Libya (22 regions):
+  Al Butnan, Al Jabal al Akhdar, Al Jabal al Gharbi, Al Jifarah, Al Jufrah, Al Kufrah, Al Marj, Al Marqab, Al Wahat, An Nuqat al Khams, Az Zawiyah, Benghazi, Darnah, Ghat, Misratah
+  ... and 7 more
+
+
+Liechtenstein (11 regions):
+  Balzers, Eschen, Gamprin, Mauren, Planken, Ruggell, Schaan, Schellenberg, Triesen, Triesenberg, Valduz
+
+Lithuania (10 regions):
+  ?iauliai, Alytaus, Kauno, Klaipedos, Marijampoles, Panevezio, Taurages, Tel?iai, Utenos, Vilniaus
+
+Luxembourg (2 regions):
+  Grevenmacher, Luxembourg
+
+Macedonia (85 regions):
+  ?a?ka, ?air, ?e?inovo-Oble?evo, ?elino, ?tip, ?u?er Sandevo, ?uto Orizari, Aerodrom, Aracinovo, Berovo, Bitola, Bogdanci, Bogovinje, Bosilovo, Brvenica
+  ... and 70 more
+
+
+Madagascar (6 regions):
+  Antananarivo, Antsiranana, Fianarantsoa, Mahajanga, Toamasina, Toliary
+
+Malawi (26 regions):
+  Balaka, Blantyre, Chikwawa, Chiradzulu, Chitipa, Dedza, Dowa, Karonga, Kasungu, Lilongwe, Machinga, Mangochi, Mchinji, Mulanje, Mwanza
+  ... and 11 more
+
+
+Malaysia (13 regions):
+  Johor, Kedah, Kelantan, Melaka, Negeri Sembilan, Pahang, Perak, Perlis, Pulau Pinang, Sabah, Sarawak, Selangor, Trengganu
+
+Mali (9 regions):
+  Bamako, Gao, Kayes, Kidal, Koulikoro, Mopti, Sikasso, S¨¦gou, Timbuktu
+
+Mauritania (13 regions):
+  Adrar, Assaba, Brakna, Dakhlet Nouadhibou, Gorgol, Guidimaka, Hodh ech Chargui, Hodh el Gharbi, Inchiri, Nouakchott, Tagant, Tiris Zemmour, Trarza
+
+Mexico (32 regions):
+  Aguascalientes, Baja California, Baja California Sur, Campeche, Chiapas, Chihuahua, Coahuila, Colima, Distrito Federal, Durango, Guanajuato, Guerrero, Hidalgo, Jalisco, Michoac¨¢n
+  ... and 17 more
+
+
+Moldova (37 regions):
+  ?old?ne?ti, ?tefan Voda, Anenii Noi, B?l?i, Basarabeasca, Bender, Briceni, Cahul, Calarasi, Cantemir, Causeni, Chi?in?u, Cimi?lia, Criuleni, Donduseni
+  ... and 22 more
+
+
+Monaco (1 regions):
+  Monaco
+
+Mongolia (22 regions):
+  ?mn?govi, ?v?rhangay, Arhangay, Bayan-?lgiy, Bayanhongor, Bulgan, Darhan-Uul, Dornod, Dornogovi, Dundgovi, Dzavhan, Govi-Altay, Govis¨¹mber, H?vsg?l, Hentiy
+  ... and 7 more
+
+
+Montenegro (21 regions):
+  ?abljak, ?avnik, Andrijevica, Bar, Berane, Bijelo Polje, Budva, Cetinje, Danilovgrad, Herceg Novi, Kola?in, Kotor, Mojkovac, Nik?ic, Plav
+  ... and 6 more
+
+
+Morocco (15 regions):
+  Chaouia - Ouardigha, Doukkala - Abda, F¨¨s - Boulemane, Gharb - Chrarda - B¨¦ni Hssen, Grand Casablanca, Guelmim - Es-Semara, La?youne - Boujdour - Sakia El Hamra, Marrakech - Tensift - Al Haouz, Mekn¨¨s - Tafilalet, Oriental, Rabat - Sal¨¦ - Zemmour - Zaer, Souss - Massa - Dra?, Tadla - Azilal, Tanger - T¨¦touan, Taza - Al Hoceima - Taounate
+
+Mozambique (10 regions):
+  Cabo Delgado, Gaza, Inhambane, Manica, Maputo, Nampula, Nassa, Sofala, Tete, Zambezia
+
+Myanmar (14 regions):
+  Ayeyarwady, Bago, Chin, Kachin, Kayah, Kayin, Magway, Mandalay, Mon, Rakhine, Sagaing, Shan, Tanintharyi, Yangon
+
+Namibia (9 regions):
+  ?Karas, Erongo, Hardap, Kavango, Khomas, Kunene, Omusati, Oshikoto, Otjozondjupa
+
+Nepal (5 regions):
+  Central, East, Far-Western, Mid-Western, West
+
+Netherlands (17 regions):
+  Drenthe, Flevoland, Friesland, Gelderland, Groningen, IJsselmeer, Limburg, Noord-Brabant, Noord-Holland, Overijssel, Saba, Saint Martin, Sint Eustatius, Utrecht, Zeeland
+  ... and 2 more
+
+
+New Zealand (9 regions):
+  Auckland, Bay of Plenty, Gisborne, Hawke's Bay, Manawatu-Wanganui, Northland, Taranaki, Waikato, Wellington
+
+Nicaragua (18 regions):
+  Atl¨¢ntico Norte, Atl¨¢ntico Sur, Boaco, Carazo, Chinandega, Chontales, Estel¨ª, Granada, Jinotega, Lago Nicaragua, Le¨®n, Madriz, Managua, Masaya, Matagalpa
+  ... and 3 more
+
+
+Niger (7 regions):
+  Agadez, Diffa, Dosso, Maradi, Tahoua, Tillab¨¦ry, Zinder
+
+Nigeria (37 regions):
+  Abia, Adamawa, Akwa Ibom, Anambra, Bauchi, Bayelsa, Benue, Borno, Cross River, Delta, Ebonyi, Edo, Ekiti, Enugu, Federal Capital Territory
+  ... and 22 more
+
+
+North Korea (14 regions):
+  Chagang-do, Hamgy?ng-bukto, Hamgy?ng-namdo, Hwanghae-bukto, Hwanghae-namdo, Kaes?ng, Kangw?n-do, Kumgangsan, P'y?ngan-bukto, P'y?ngan-namdo, P'y?ngyang, Ras?n, Ryanggang, Sin?iju
+
+Norway (20 regions):
+  ?stfold, Akershus, Aust-Agder, Buskerud, Finnmark, Hedmark, Hordaland, M?re og Romsdal, Nord-Tr?ndelag, Nordland, Oppland, Oslo, Rogaland, S?r-Tr?ndelag, Sogn og Fjordane
+  ... and 5 more
+
+
+Oman (11 regions):
+  Ad Dakhliyah, Al Batinah North, Al Batinah South, Al Buraymi, Al Dhahira, Al Wusta, Ash Sharqiyah North, Ash Sharqiyah South, Dhofar, Musandam, Muscat
+
+Pakistan (6 regions):
+  Azad Kashmir, Baluchistan, Khyber Pakhtunkhwa, Northern Areas, Punjab, Sind
+
+Palestina (2 regions):
+  Gaza, West Bank
+
+Panama (13 regions):
+  Bocas del Toro, Chiriqu¨ª, Cocl¨¦, Col¨®n, Dari¨¦n, Ember¨¢, Herrera, Kuna Yala, Los Santos, Ng?be Bugl¨¦, Panam¨¢, Panam¨¢ Oeste, Veraguas
+
+Papua New Guinea (20 regions):
+  Central, Chimbu, East New Britain, East Sepik, Eastern Highlands, Enga, Gulf, Hela, Jiwaka, Madang, Manus, Milne Bay, Morobe, New Ireland, Oro
+  ... and 5 more
+
+
+Paraguay (17 regions):
+  ?eembuc¨², Alto Paraguay, Alto Paran¨¢, Amambay, Boquer¨®n, Caaguaz¨², Caazap¨¢, Canindey¨², Central, Concepci¨®n, Cordillera, Guair¨¢, Itap¨²a, Misiones, Paraguar¨ª
+  ... and 2 more
+
+
+Peru (23 regions):
+  Amazonas, Ancash, Apur¨ªmac, Arequipa, Ayacucho, Cajamarca, Cusco, Huancavelica, Hu¨¢nuco, Ica, Jun¨ªn, La Libertad, Lambayeque, Lima, Lima Province
+  ... and 8 more
+
+
+Philippines (80 regions):
+  Abra, Agusan del Norte, Agusan del Sur, Aklan, Albay, Antique, Apayao, Aurora, Basilan, Bataan, Batangas, Benguet, Biliran, Bohol, Bukidnon
+  ... and 65 more
+
+
+Poland (16 regions):
+  ?wi?tokrzyskie, ?¨®d?, Greater Poland, Kuyavian-Pomeranian, Lesser Poland, Lower Silesian, Lublin, Lubusz, Masovian, Opole, Podlachian, Pomeranian, Silesian, Subcarpathian, Warmian-Masurian
+  ... and 1 more
+
+
+Portugal (12 regions):
+  Braga, Castelo Branco, Guarda, Leiria, Lisboa, Portalegre, Porto, Santar¨¦m, Set¨²bal, Viana do Castelo, Vila Real, Viseu
+
+Puerto Rico (77 regions):
+  A?asco, Aguada, Aguadilla, Aguas Buenas, Aibonito, Arecibo, Arroyo, Barceloneta, Barranquitas, Bayam¨®n, Cabo Rojo, Caguas, Camuy, Can¨®vanas, Carolina
+  ... and 62 more
+
+
+Republic of Congo (10 regions):
+  Bouenza, Cuvette, Cuvette-Ouest, Kouilou, Likouala, L¨¦koumou, Niari, Plateaux, Pool, Sangha
+
+Romania (42 regions):
+  Alba, Arad, Arge?, Bac?u, Bihor, Bistri?a-N?s?ud, Boto?ani, Br?ila, Bra?ov, Bucharest, Buz?u, C?l?ra?i, Cara?-Severin, Cluj, Constan?a
+  ... and 27 more
+
+
+Russia (81 regions):
+  Adygey, Altay, Amur, Arkhangel'sk, Astrakhan', Bashkortostan, Belgorod, Bryansk, Buryat, Chechnya, Chelyabinsk, Chukot, Chuvash, Dagestan, Gorno-Altay
+  ... and 66 more
+
+
+Rwanda (5 regions):
+  Amajyaruguru, Amajyepfo, Iburasirazuba, Iburengerazuba, Umujyi wa Kigali
+
+Sahrawi Arab Democratic Republic (4 regions):
+  Boujdour, Es Semara, Laayoune, Oued el Dahab
+
+Saint Kitts and Nevis (14 regions):
+  Christ Church Nichola Town, Saint Anne Sandy Point, Saint George Basseterre, Saint George Gingerland, Saint James Windward, Saint John Capisterre, Saint John Figtree, Saint Mary Cayon, Saint Paul Capisterre, Saint Paul Charlestown, Saint Peter Basseterre, Saint Thomas Lowland, Saint Thomas Middle Island, Trinity Palmetto Point
+
+Saint Lucia (10 regions):
+  Anse-la-Raye, Canaries, Castries, Choiseul, Dennery, Gros Islet, Laborie, Micoud, Soufri¨¨re, Vieux Fort
+
+Saint Vincent and the Grenadines (6 regions):
+  Charlotte, Grenadines, Saint Andrew, Saint David, Saint George, Saint Patrick
+
+Saudi Arabia (13 regions):
+  Al Bahah, Al Hudud ash Shamaliyah, Al Jawf, Al Madinah, Al Quassim, Ar Riyad, Ash Sharqiyah, Ha'il, Jizan, Makkah, Najran, Tabuk, `Asir
+
+Senegal (14 regions):
+  Dakar, Diourbel, Fatick, Kaffrine, Kaolack, Kolda, K¨¦dougou, Louga, Matam, Saint-Louis, S¨¦dhiou, Tambacounda, Thi¨¨s, Ziguinchor
+
+Serbia (32 regions):
+  ?akovica, ?umadijski, Borski, Brani?evski, Gnjilane, Grad Beograd, Jablani?ki, Ju?no-Ba?ki, Ju?no-Banatski, Kolubarski, Kosovska Mitrovica, Ma?vanski, Moravi?ki, Ni?avski, P?injski
+  ... and 17 more
+
+
+Sierra Leone (3 regions):
+  Eastern, Northern, Southern
+
+Singapore (2 regions):
+  Central, West
+
+Slovakia (8 regions):
+  ?ilinsk?, Banskobystrick?, Bratislavsk?, Ko?ick?, Nitriansky, Pre?ovsk?, Tren?iansky, Trnavsk?
+
+Slovenia (12 regions):
+  Gorenjska, Gori?ka, Jugovzhodna Slovenija, Koro?ka, Notranjsko-kra?ka, Obalno-kra?ka, Osrednjeslovenska, Podravska, Pomurska, Savinjska, Spodnjeposavska, Zasavska
+
+Somalia (16 regions):
+  Awdal, Bakool, Bari, Bay, Galguduud, Gedo, Hiiraan, Jubbada Dhexe, Jubbada Hoose, Mudug, Nugaal, Sanaag, Shabeellaha Dhexe, Sool, Togdheer
+  ... and 1 more
+
+
+South Africa (6 regions):
+  Free State, KwaZulu-Natal, Mpumalanga, North West, Northern Cape, Western Cape
+
+South Korea (17 regions):
+  Busan, Chungcheongbuk-do, Chungcheongnam-do, Daegu, Daejeon, Gangwon-do, Gwangju, Gyeonggi-do, Gyeongsangbuk-do, Gyeongsangnam-do, Incheon, Jeju, Jeollabuk-do, Jeollanam-do, Sejong
+  ... and 2 more
+
+
+South Sudan (10 regions):
+  Central Equatoria, Eastern Equatoria, Jungoli, Lakes, North Bahr-al-Ghazal, Unity, Upper Nile, Warap, West Bahr-al-Ghazal, West Equatoria
+
+Spain (16 regions):
+  Andaluc¨ªa, Arag¨®n, Cantabria, Castilla y Le¨®n, Castilla-La Mancha, Catalu?a, Comunidad Foral de Navarra, Comunidad Valenciana, Comunidad de Madrid, Extremadura, Galicia, Islas Baleares, La Rioja, Pa¨ªs Vasco, Principado de Asturias
+  ... and 1 more
+
+
+Sudan (18 regions):
+  Al Jazirah, Al Qadarif, Blue Nile, Central Darfur, East Darfur, Kassala, Khartoum, North Darfur, North Kurdufan, Northern, Red Sea, River Nile, Sennar, South Darfur, South Kurdufan
+  ... and 3 more
+
+
+Suriname (8 regions):
+  Commewijne, Coronie, Marowijne, Nickerie, Paramaribo, Saramacca, Sipaliwini, Wanica
+
+Swaziland (2 regions):
+  Hhohho, Manzini
+
+Sweden (21 regions):
+  ?sterg?tland, Blekinge, Dalarna, G?vleborg, Gotland, Halland, J?mtland, J?nk?ping, Kalmar, Kronoberg, Norrbotten, Orebro, S?dermanland, Sk?ne, Stockholm
+  ... and 6 more
+
+
+Switzerland (26 regions):
+  Aargau, Appenzell Ausserrhoden, Appenzell Innerrhoden, Basel-Landschaft, Basel-Stadt, Bern, Fribourg, Gen¨¨ve, Glarus, Graub¨¹nden, Jura, Lucerne, Neuch?tel, Nidwalden, Obwalden
+  ... and 11 more
+
+
+Syria (14 regions):
+  Al ?asakah, Aleppo, Ar Raqqah, As Suwayda', Damascus, Dar`a, Dayr Az Zawr, Hamah, Hims, Idlib, Lattakia, Quneitra, Rif Dimashq, Tartus
+
+Tajikistan (4 regions):
+  Gorno-Badakhshan, Khatlon, Leninabad, Tadzhikistan Territories
+
+Tanzania (24 regions):
+  Arusha, Dodoma, Geita, Iringa, Kagera, Katavi, Kigoma, Kilimanjaro, Lindi, Manyara, Mara, Mbeya, Morogoro, Mtwara, Mwanza
+  ... and 9 more
+
+
+Thailand (63 regions):
+  Ang Thong, Bangkok Metropolis, Bueng Kan, Chachoengsao, Chai Nat, Chaiyaphum, Chanthaburi, Chiang Mai, Chon Buri, Chumphon, Kalasin, Kamphaeng Phet, Kanchanaburi, Khon Kaen, Krabi
+  ... and 48 more
+
+
+Timor-Leste (13 regions):
+  Aileu, Ainaro, Ambeno, Baucau, Bobonaro, Covalima, Dili, Ermera, Laut¨¦m, Liqui?¨¢, Manatuto, Manufahi, Viqueque
+
+Togo (5 regions):
+  Centre, Kara, Maritime, Plateaux, Savanes
+
+Tunisia (24 regions):
+  Ariana, Ben Arous (Tunis Sud), Bizerte, B¨¦ja, Gab¨¨s, Gafsa, Jendouba, Kairouan, Kass¨¦rine, Kebili, Le Kef, Mahdia, Manubah, Monastir, M¨¦denine
+  ... and 9 more
+
+
+Turkey (86 regions):
+  ?anakkale, ?ankiri, ?orum, Adana, Adiyaman, Afyon, Agri, Aksaray, Amasya, Ankara, Antalya, Ardahan, Artvin, Aydin, Balikesir
+  ... and 71 more
+
+
+Turkmenistan (5 regions):
+  Ahal, Balkan, Chardzhou, Mary, Tashauz
+
+Uganda (58 regions):
+  Adjumani, Apac, Arua, Bugiri, Bundibugyo, Bushenyi, Busia, Gulu, Hoima, Iganga, Jinja, Kabale, Kabarole, Kaberamaido, Kalangala
+  ... and 43 more
+
+
+Ukraine (27 regions):
+  Cherkasy, Chernihiv, Chernivtsi, Crimea, Dnipropetrovs'k, Donets'k, Ivano-Frankivs'k, Kharkiv, Kherson, Khmel'nyts'kyy, Kiev, Kiev City, Kirovohrad, L'viv, Luhans'k
+  ... and 12 more
+
+
+United Arab Emirates (8 regions):
+  Abu Dhabi, Ajman, Dubay, Fujayrah, Neutral Zone, Ras Al Khaymah, Sharjah, Umm Al Qaywayn
+
+United Kingdom (14 regions):
+  Akrotiri and Dhekelia, Dhekelia, England, Grand Turk, Little Cayman, Middle Caicos, North Caicos, Northern Ireland, Providenciales and West Caicos, Saint Georges, Saint Peter, Salt Cay, Scotland, South Caicos and East Caicos
+
+United States (49 regions):
+  Alabama, Alaska, Arizona, Arkansas, California, Colorado, Connecticut, Delaware, Florida, Georgia, Idaho, Illinois, Indiana, Iowa, Kansas
+  ... and 34 more
+
+
+Uruguay (17 regions):
+  Artigas, Canelones, Cerro Largo, Colonia, Durazno, Flores, Florida, Lavalleja, Maldonado, Paysand¨², Rivera, R¨ªo Negro, Salto, San Jos¨¦, Soriano
+  ... and 2 more
+
+
+Uzbekistan (13 regions):
+  Andijon, Bukhoro, Ferghana, Jizzakh, Karakalpakstan, Kashkadarya, Khorezm, Namangan, Navoi, Samarkand, Sirdaryo, Surkhandarya, Tashkent
+
+Venezuela (21 regions):
+  Amazonas, Anzo¨¢tegui, Apure, Aragua, Barinas, Bol¨ªvar, Carabobo, Cojedes, Delta Amacuro, Falc¨®n, Gu¨¢rico, Lara, Miranda, Monagas, M¨¦rida
+  ... and 6 more
+
+
+Vietnam (60 regions):
+  ??k L?k, ??k N?ng, ??ng Nai, ??ng Th¨¢p, ?i?n Bi¨ºn, ?¨¤ N?ng, An Giang, B?c Giang, B?c K?n, B?c Li¨ºu, B?c Ninh, B?n Tre, B¨¤ R?a - V?ng T¨¤u, B¨¬nh ??nh, B¨¬nh D??ng
+  ... and 45 more
+
+
+Yemen (21 regions):
+  Abyan, Al Bayda', Al Dali', Al Hudaydah, Al Jawf, Al Mahrah, Al Mahwit, Amanat Al Asimah, Amran, Dhamar, Hadramawt, Hajjah, Ibb, Lahij, Ma'rib
+  ... and 6 more
+
+
+Zambia (10 regions):
+  Central, Copperbelt, Eastern, Luapula, Lusaka, Muchinga, North-Western, Northern, Southern, Western
+
+Zimbabwe (7 regions):
+  Manicaland, Mashonaland Central, Mashonaland East, Mashonaland West, Matabeleland North, Matabeleland South, Midlands

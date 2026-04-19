@@ -18,7 +18,7 @@ Run the PowerShell script to start both backend and frontend:
 .\start.ps1
 ```
 
-This starts the backend on port 8000 and frontend on port 5173.
+This starts the backend on port 8001 and frontend on port 5173.
 
 ### Manual Start
 
@@ -34,7 +34,7 @@ pip install -r backend/requirements.txt
 3. Run the backend API:
 
 ```bash
-uvicorn backend.main:app --reload --host 0.0.0.0 --port 8000
+uvicorn backend.main:app --reload --host 0.0.0.0 --port 8001
 ```
 
 #### Frontend
@@ -56,6 +56,7 @@ npm run dev
 
 ## Notes
 
-- The frontend proxies `/api` calls to `http://localhost:8000`.
+- The frontend proxies `/api` calls to `http://localhost:8001`.
 - The backend currently loads `data.csv` from the project root.
+- The polygon choropleth maps fetch Natural Earth country and admin-1 GeoJSON layers at runtime, so an internet connection is required for full boundary rendering in development.
 - Route prediction is scaffolded as a placeholder and can be extended with sequence mining or ML models.

@@ -1,0 +1,13 @@
+event-id,visible,timestamp,location-long,location-lat,lat-sd,long-sd,sensor-type,individual-taxon-canonical-name,tag-local-identifier,individual-local-identifier,study-name
+40462546422,true,2019-08-29 04:57:04.000,106.450501,52.29465,0.0,0.0,"solar-geolocator","Hirundo rustica","BS756","BS756","Barn Swallow (Hirundo rustica tytleri) Baikal"
+40462546423,true,2019-10-26 10:32:49.000,106.450501,52.29465,0.0,0.0,"solar-geolocator","Hirundo rustica","BS756","BS756","Barn Swallow (Hirundo rustica tytleri) Baikal"
+40462546424,true,2019-10-26 22:50:48.000,107.449077237621,45.1037637947048,4.87335697913931,1.95740111714887,"solar-geolocator","Hirundo rustica","BS756","BS756","Barn Swallow (Hirundo rustica tytleri) Baikal"
+40462546425,true,2019-10-27 10:54:55.000,99.8421576903776,38.3173510942248,5.72142328537893,1.79531278738153,"solar-geolocator","Hirundo rustica","BS756","BS756","Barn Swallow (Hirundo rustica tytleri) Baikal"
+40462546426,true,2019-10-27 22:47:46.000,105.465795171105,33.546096748715,5.54182246797416,1.80463461334288,"solar-geolocator","Hirundo rustica","BS756","BS756","Barn Swallow (Hirundo rustica tytleri) Baikal"
+40462546427,true,2019-10-28 11:03:01.000,99.2602462522386,29.3804579595336,4.71985027750081,1.71746194012311,"solar-geolocator","Hirundo rustica","BS756","BS756","Barn Swallow (Hirundo rustica tytleri) Baikal"
+40462546428,true,2019-10-28 23:11:19.000,98.9374213414538,26.2144786334302,3.81928107572592,1.70646911002957,"solar-geolocator","Hirundo rustica","BS756","BS756","Barn Swallow (Hirundo rustica tytleri) Baikal"
+40462546429,true,2020-02-10 11:52:40.000,96.6955258978239,22.7164899973713,0.0729791446848091,0.0381282207991626,"solar-geolocator","Hirundo rustica","BS756","BS756","Barn Swallow (Hirundo rustica tytleri) Baikal"
+40462546430,true,2020-05-24 12:08:22.000,102.932475602041,24.6826109123625,3.21440235523768,2.21885806915777,"solar-geolocator","Hirundo rustica","BS756","BS756","Barn Swallow (Hirundo rustica tytleri) Baikal"
+40462546431,true,2020-05-24 21:49:22.000,104.738787178097,25.6216061011813,3.912518683287,2.50470516115354,"solar-geolocator","Hirundo rustica","BS756","BS756","Barn Swallow (Hirundo rustica tytleri) Baikal"
+40462546432,true,2020-06-03 20:10:32.000,103.626081580843,49.8309633846798,3.60252722476792,6.6694381977892,"solar-geolocator","Hirundo rustica","BS756","BS756","Barn Swallow (Hirundo rustica tytleri) Baikal"
+40462546433,true,2020-06-05 04:50:39.000,106.450501,52.29465,0.0,0.0,"solar-geolocator","Hirundo rustica","BS756","BS756","Barn Swallow (Hirundo rustica tytleri) Baikal"

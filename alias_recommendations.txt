@@ -1,0 +1,60 @@
+================================================================================
+COMPREHENSIVE PROVINCE/REGION ALIAS ANALYSIS
+FOR BIRD MIGRATION DATA
+================================================================================
+
+ANALYSIS SUMMARY:
+  • Total countries in dataset: 172
+  • Existing aliases in codebase: 8
+  • NEW aliases recommended: 37
+
+EXISTING ALIASES (keep these):
+----------------------------------------
+  "bourgogne": "bourgogne franche comte",
+  "champagne ardenne": "grand est",
+  "languedoc roussillon": "occitanie",
+  "lorraine": "grand est",
+  "midi pyrenees": "occitanie",
+  "nei mongol": "inner mongolia",
+  "souss massa draa": "souss massa",
+  "xizang": "tibet",
+
+NEW ALIASES RECOMMENDED (add these):
+----------------------------------------
+  "al isma`iliyah": "ismailia",
+  "al qahirah": "cairo",
+  "alsace": "grand est",
+  "aquitaine": "nouvelle-aquitaine",
+  "as suways": "suez",
+  "auvergne": "auvergne-rhone-alpes",
+  "basse-normandie": "normandie",
+  "ben arous (tunis sud)": "ben arous",
+  "champagne-ardenne": "grand est",
+  "chaouia - ouardigha": "casablanca-settat",
+  "county durham": "durham",
+  "d.c.": "district of columbia",
+  "doukkala - abda": "casablanca-settat",
+  "franche-comté": "bourgogne-franche-comte",
+  "gharb - chrarda - beni hssen": "fez-meknes",
+  "grand casablanca": "casablanca-settat",
+  "guelmim - es-semara": "guelmim-oued noun",
+  "haute-normandie": "normandie",
+  "la?youne - boujdour - sakia el hamra": "laayoune-sakia el hamra",
+  "languedoc-roussillon": "occitanie",
+  "limousin": "nouvelle-aquitaine",
+  "marrakech - tensift - al haouz": "marrakech-safi",
+  "meknès - tafilalet": "fez-meknes",
+  "michoacán": "michoacan",
+  "midi-pyrénées": "occitanie",
+  "nct of delhi": "delhi",
+  "nei mongol": "inner mongolia",
+  "nord-pas-de-calais": "hauts-de-france",
+  "picardie": "hauts-de-france",
+  "poitou-charentes": "nouvelle-aquitaine",
+  "rabat - salé - zemmour - zaer": "rabat-sale-kenitra",
+  "rhône-alpes": "auvergne-rhone-alpes",
+  "souss - massa - dra?": "souss-massa",
+  "tadla - azilal": "beni mellal-khenifra",
+  "tanger - tétouan": "tanger-tetouan-al hoceima",
+  "taza - al hoceima - taounate": "tanger-tetouan-al hoceima",
+  "xizang": "tibet",
